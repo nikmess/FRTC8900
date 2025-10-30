@@ -1,0 +1,44 @@
+#######################################
+# Syntax Coloring Map for FRTC8900
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+FRTC8900	KEYWORD1
+FOUT_Frequency	KEYWORD1
+AlarmMode	KEYWORD1
+UpdateRate	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin	KEYWORD2
+setTime	KEYWORD2
+getTime	KEYWORD2
+isTimeValid	KEYWORD2
+clearVoltageLowFlag	KEYWORD2
+setAlarm	KEYWORD2
+enableAlarm	KEYWORD2
+disableAlarm	KEYWORD2
+alarmFired	KEYWORD2
+clearAlarmFlag	KEYWORD2
+enableUpdateInterrupt	KEYWORD2
+disableUpdateInterrupt	KEYWORD2
+updateFired	KEYWORD2
+clearUpdateFlag	KEYWORD2
+enableOutput	KEYWORD2
+disableOutput	KEYWORD2
+setOutputFrequency	KEYWORD2
+getTemperatureRaw	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+FOUT_32768_HZ	LITERAL1
+FOUT_1024_HZ	LITERAL1
+FOUT_1_HZ	LITERAL1
+ALARM_DAY_OF_WEEK	LITERAL1
+ALARM_DAY_OF_MONTH	LITERAL1
+UPDATE_SECONDLY	LITERAL1
+UPDATE_MINUTELY	LITERAL1
